@@ -1,0 +1,22 @@
+{
+  "enabled": false,
+  "apply_stages": [1, 2],
+  "gaussian_kernel_size": 9,
+  "gaussian_sigma": 2.5,
+  "boundary_gamma": 1.2,
+  "relax_strength": 0.72,
+  "min_boundary_strength": 0.16,
+  "hard_block_bias": -18.0,
+  "soft_block_bias": -7.5,
+  "conservative_cross_region_only": true,
+  "key_boundary_only": true,
+  "include_unowned_region": true,
+  "soften_cross_ref_keys": true,
+  "cross_ref_relax_scale": 0.42,
+  "soften_prompt_keys": true,
+  "prompt_relax_scale": 0.16,
+  "stage_relax_scale": {
+    "1": 1.0,
+    "2": 0.60
+  }
+}
